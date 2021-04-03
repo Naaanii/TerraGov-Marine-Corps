@@ -1308,7 +1308,7 @@ Imports
 	contains = list(/obj/item/ammo_magazine/rifle/ap)
 	cost = 15
 
-/datums/supply_packs/imports/m412/ammo/incendiary
+/datum/supply_packs/imports/m412/ammo/incendiary
 	name = "M412 Incen Magazine"
 	contains = list(/obj/item/ammo_magazine/rifle/incendiary)
 	cost = 15
