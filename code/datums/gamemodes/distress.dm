@@ -246,7 +246,7 @@
 		return
 	if(round_finished)
 		return
-	if(round_stage == DISTRESS_DROPSHIP_CRASHING)
+	if(round_stage == DISTRESS_DROPSHIP_CRASHED)
 		round_finished = MODE_INFESTATION_X_MINOR
 		return
 	round_finished = MODE_INFESTATION_M_MAJOR
