@@ -133,3 +133,9 @@ also doesn't really matter. You can only reload them with handfuls.
 /obj/item/ammo_magazine/internal/shotgun/scout
 	max_rounds = 9
 	current_rounds = 0
+
+/obj/item/ammo_magazine/internal/shotgun/pump/arrow
+	name = "internal magazine"
+	default_ammo = /datum/ammo/bullet/sniper/arrow
+	caliber = "Arrows"
+	max_rounds = 1

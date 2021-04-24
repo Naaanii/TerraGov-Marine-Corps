@@ -245,6 +245,14 @@
 	owner.remove_movespeed_modifier(MOVESPEED_ID_HARVEST_TRAM_SLOWDOWN)
 	return ..()
 
+/datum/status_effect/sticky_arrow
+	id = "sticky_arrow"
+	tick_interval = 1 SECONDS
+	status_type = STATUS_EFFECT_MULTIPLE
+
+/datum/status_effect/sticky_arrow/on_remove()
+	explosion(get_turf(owner), 0, 1, 8, 5)
+	return ..()
 
 //HEALING INFUSION buff for Hivelord
 /datum/status_effect/healing_infusion
