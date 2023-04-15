@@ -555,6 +555,7 @@
 /obj/machinery/shower{
 	dir = 8
 	},
+/obj/machinery/iv_drip,
 /turf/open/floor/mainship/sterile/dark,
 /area/shuttle/canterbury/medical)
 "ce" = (
